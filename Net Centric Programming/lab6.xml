@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+ 
+ 
+
+<!DOCTYPE placement 
+
+[ 
+
+<!ELEMENT placement (student)*> 
+
+<!ELEMENT student (sl_no,gender,ssc_p,ssc_b,hsc_p,hsc_b,hsc_s,degree_p,degree_t,workex,etest_p,specialisation,mba_p,status,salary)> 
+
+<!ELEMENT sl_no (#PCDATA)> 
+
+<!ELEMENT ssc_p (#PCDATA)> 
+
+<!ELEMENT ssc_b (#PCDATA)> 
+
+<!ELEMENT hsc_p (#PCDATA)> 
+
+<!ELEMENT hsc_b (#PCDATA)> 
+
+<!ELEMENT hsc_s (#PCDATA)> 
+
+<!ELEMENT degree_p (#PCDATA)> 
+
+<!ELEMENT degree_t (#PCDATA)> 
+
+<!ELEMENT workex (#PCDATA)> 
+
+<!ELEMENT etest_p (#PCDATA)> 
+
+<!ELEMENT specialisation (#PCDATA)> 
+
+<!ELEMENT mba_p (#PCDATA)> 
+
+<!ELEMENT status (#PCDATA)> 
+
+<!ELEMENT salary ANY> 
+
+<!ATTLIST student gender (M|F) #REQUIRED> 
+
+]> 
+
+<!--  --> 
+
+<placement 
+
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+
+xsi:noNamespaceSchemaLocation="temp.xsd"> 
+
+<!--  --> 
+
+<student gender="M"> 
+
+<sl_no>1</sl_no> 
+
+<ssc_p>67</ssc_p> 
+
+<ssc_b>Others</ssc_b> 
+
+<hsc_p>91</hsc_p> 
+
+<hsc_b>Others</hsc_b> 
+
+<hsc_s>Commerce</hsc_s> 
+
+<degree_p>58</degree_p> 
+
+<degree_t>Sci&amp;Tech</degree_t> 
+
+<workex>No</workex> 
+
+<etest_p>55</etest_p> 
+
+<specialisation>Mkt&amp;HR</specialisation> 
+
+<mba_p>58.8</mba_p> 
+
+<status>Placed</status> 
+
+<salary>270000</salary> 
+
+</student> 
+
+<!--  --> 
+
+<student gender="M"> 
+
+<sl_no>2</sl_no> 
+
+<ssc_p>79.33</ssc_p> 
+
+<ssc_b>Central</ssc_b> 
+
+<hsc_p>78.33</hsc_p> 
+
+<hsc_b>Others</hsc_b> 
+
+<hsc_s>Others</hsc_s> 
+
+<degree_p>77.48</degree_p> 
+
+<degree_t>Sci&amp;Tech</degree_t> 
+
+<workex>Yes</workex> 
+
+<etest_p>86.5</etest_p> 
+
+<specialisation>Mkt&amp;HR</specialisation> 
+
+<mba_p>66.28</mba_p> 
+
+<status>Placed</status> 
+
+<salary>200000</salary> 
+
+</student> 
+
+<!--  --> 
+
+</placement> 

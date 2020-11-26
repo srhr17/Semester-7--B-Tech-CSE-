@@ -1,0 +1,124 @@
+h1:hover {
+    color: #5c5c8a;
+}
+
+h3:hover,
+label:hover,
+p:hover {
+    color: #4040bf;
+}
+
+nav {
+    float: right;
+    display: inline;
+    margin-left: 40%;
+}
+
+.highest {
+    background-color: #ff8080;
+}
+
+.lowest {
+    background-color: #ffffb3;
+}
+
+.scrolling {
+    width: 100%;
+    overflow: hidden;
+}
+
+.scrolling {
+    color: #e63900;
+    position: absolute;
+    width: 55%;
+    height: 60%;
+    line-height: 50px;
+    text-align: center;
+    transform: translateX(100%);
+    animation: example1 15s linear infinite;
+}
+
+@keyframes example1 {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.styled {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.name:invalid {
+    border: 2px solid #ff4d4d;
+}
+
+.phone:invalid {
+    border: 2px solid #ff4d4d;
+}
+
+.lp:invalid {
+    border: 2px solid #ff4d4d;
+}
+
+.age:invalid {
+    border: 2px solid #ff4d4d;
+}
+
+.pass:invalid {
+    border: 2px solid #ff4d4d;
+}
+
+.roll:invalid {
+    border: 2px solid #ff4d4d;
+}
+
+.mail:invalid {
+    border: 2px solid #ff4d4d;
+}
+
+.date:invalid {
+    border: 2px solid #ff4d4d;
+}
+
+.submit:hover {
+    border: 2px solid #00264d;
+    background-color: #0099e6;
+}
+
+#error-name,
+#error-email,
+#error-phone,
+#error-qualification,
+#error-birthday,
+#error-password,
+#error-repassword {
+    color: red;
+}
+
+.btn,
+#btn {
+    position: relative;
+    cursor: pointer;
+    color: #fff;
+    background: #333;
+    font-size: 12px;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-family: consolas;
+    user-select: none;
+}
+
+.btn:active,
+#btn:active {
+    background: #9c27b0;
+}

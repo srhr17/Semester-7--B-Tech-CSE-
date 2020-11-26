@@ -1,0 +1,103 @@
+/* CSS files add styling rules to your content */
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+    background-image: url("https://cdn.glitch.com/620673fc-a805-4d6c-a0d5-743acb3855c6%2Fbckicon.png?v=1596690045769");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    line-height: 1.8;
+    background-color: #c9f0ee;
+}
+
+a:hover {
+    color: #4040bf;
+}
+
+.firstLogo {
+    animation: 1s blinker linear infinite;
+    display: inline;
+    float: left;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@600&display=swap");
+.companyName {
+    display: inline;
+    font-family: "Lemonada", cursive;
+    font-size: 40px;
+    color: #000080;
+    clear: right;
+}
+
+.aboutSection {
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.signIn {
+    margin-left: 140px;
+    height: 330px;
+    width: 320px;
+}
+
+.signUp {
+    margin-left: 140px;
+    height: 1100px;
+    width: 320px;
+}
+
+.mail: {
+    width: 230px;
+}
+
+.password {
+    width: 166px;
+}
+
+.care {
+    color: #f94279;
+}
+
+.covid {
+    animation: 1s blinker linear infinite;
+    color: red;
+}
+
+@keyframes blinker {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

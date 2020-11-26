@@ -1,0 +1,30 @@
+.unorderedlist {
+    list-style-type: square;
+    background-color: #4da6ff;
+    border-radius: 25px;
+    animation: 4s blinker linear infinite;
+}
+
+@keyframes blinker {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.aboutpara1 {
+    width: 700px;
+    text-align: justify;
+    font-style: italic;
+}
+
+.aboutpara2 {
+    width: 700px;
+    text-align: justify;
+    font-weight: bold;
+}

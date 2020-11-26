@@ -1,0 +1,22 @@
+body {
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(270deg, #000000, #e7e7e7, #348f9b);
+  background-size: 600% 600%;
+
+  animation: changeBackground 30s ease infinite;
+  /*   animation-duration,animation-timing-function-cubic bezier,animation-iteration-count */
+}
+
+@keyframes changeBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

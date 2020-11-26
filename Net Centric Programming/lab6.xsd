@@ -1,0 +1,69 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+
+  <xs:element name="placement"> 
+
+    <xs:annotation> 
+
+      <xs:documentation></xs:documentation> 
+
+    </xs:annotation> 
+
+    <xs:complexType> 
+
+      <xs:sequence> 
+
+        <xs:element name="student" maxOccurs="unbounded" minOccurs="0"> 
+
+          <xs:annotation> 
+
+            <xs:documentation></xs:documentation> 
+
+          </xs:annotation> 
+
+          <xs:complexType> 
+
+            <xs:sequence> 
+
+              <xs:element type="xs:byte" name="sl_no"/> 
+
+              <xs:element type="xs:float" name="ssc_p"/> 
+
+              <xs:element type="xs:string" name="ssc_b"/> 
+
+              <xs:element type="xs:float" name="hsc_p"/> 
+
+              <xs:element type="xs:string" name="hsc_b"/> 
+
+              <xs:element type="xs:string" name="hsc_s"/> 
+
+              <xs:element type="xs:float" name="degree_p"/> 
+
+              <xs:element type="xs:string" name="degree_t"/> 
+
+              <xs:element type="xs:string" name="workex"/> 
+
+              <xs:element type="xs:float" name="etest_p"/> 
+
+              <xs:element type="xs:string" name="specialisation"/> 
+
+              <xs:element type="xs:float" name="mba_p"/> 
+
+              <xs:element type="xs:string" name="status"/> 
+
+              <xs:element type="xs:int" name="salary"/> 
+
+            </xs:sequence> 
+
+            <xs:attribute type="xs:string" name="gender" use="optional"/> 
+
+          </xs:complexType> 
+
+        </xs:element> 
+
+      </xs:sequence> 
+
+    </xs:complexType> 
+
+  </xs:element> 
+
+</xs:schema> 

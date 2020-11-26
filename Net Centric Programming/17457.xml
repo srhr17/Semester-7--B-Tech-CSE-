@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="17457.xsl" type="text/xsl"?>
+<!DOCTYPE weather [
+<!ELEMENT weather (row)*>
+<!ELEMENT row (day,chicago,chennai,berlin)>
+<!ELEMENT day (#PCDATA)>
+<!ELEMENT chicago (#PCDATA)>
+<!ELEMENT chennai (#PCDATA)>
+<!ELEMENT berlin (#PCDATA)>
+]>
+<weather xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="17457.xsd">
+<row dayid= "1">
+<day>Monday</day>
+<chicago>32</chicago>
+<chennai>75</chennai>
+<berlin>41</berlin>
+</row>
+<row dayid= "2">
+<day>Tuesday</day>
+<chicago>30</chicago>
+<chennai>77</chennai>
+<berlin>43</berlin>
+</row>
+<row dayid= "3">
+<day>Wednesday</day>
+<chicago>28</chicago>
+<chennai>75</chennai>
+<berlin>45</berlin>
+</row>
+<row dayid= "4">
+<day>Thursday</day>
+<chicago>22</chicago>
+<chennai>82</chennai>
+<berlin>38</berlin>
+</row>
+<row dayid= "5">
+<day>Friday</day>
+<chicago>30</chicago>
+<chennai>83</chennai>
+<berlin>30</berlin>
+</row>
+<row dayid= "6">
+<day>Saturday</day>
+<chicago>20</chicago>
+<chennai>81</chennai>
+<berlin>45</berlin>
+</row>
+<row dayid= "7">
+<day>Sunday</day>
+<chicago>25</chicago>
+<chennai>77</chennai>
+<berlin>47</berlin>
+</row>
+</weather>
